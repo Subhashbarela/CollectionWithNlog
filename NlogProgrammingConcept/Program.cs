@@ -10,8 +10,24 @@ namespace NlogProgrammingConcept
     {
         static void Main(string[] args)
         {
-            AddClass sum = new AddClass();
-            sum.Add(10,20);
+            Console.WriteLine("1: Nlog Program \n2: ArrayList");
+            Console.WriteLine("Enter the choiice");
+            int choice= int.Parse(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    {
+                        AddClass sum = new AddClass();
+                        sum.Add(10, 20);
+                        break;
+                    } case 2:
+                    {
+                        ArrayListCollection al = new ArrayListCollection();
+                        al.AddMethod();
+                        break;
+                    }
+            }
+            
         }
     }
 }
