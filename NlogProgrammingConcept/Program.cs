@@ -10,7 +10,8 @@ namespace NlogProgrammingConcept
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            AddClass sum = new AddClass();
+            sum.Add(10,20);
         }
     }
 }

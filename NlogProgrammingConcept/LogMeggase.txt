@@ -1,0 +1,2 @@
+﻿2023-07-03 15:59:41.0319 DEBUG Debuge Successfully...! 
+2023-07-03 15:59:41.0683 INFO Addition of two number is : 30 
