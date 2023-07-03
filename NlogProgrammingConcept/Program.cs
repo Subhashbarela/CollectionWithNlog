@@ -10,7 +10,7 @@ namespace NlogProgrammingConcept
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1: Nlog Program \n2: ArrayList");
+            Console.WriteLine("1: Nlog Program \n2: ArrayList \n3: Dictionay Collection");
             Console.WriteLine("Enter the choiice");
             int choice= int.Parse(Console.ReadLine());
             switch (choice)
@@ -24,6 +24,13 @@ namespace NlogProgrammingConcept
                     {
                         ArrayListCollection al = new ArrayListCollection();
                         al.AddMethod();
+                        break;
+                    }
+                case 3:
+                    {
+                        DictionaryCollection di= new DictionaryCollection();
+                        di.InsertIntoDictionary();
+                       // di.DictionaryWithBothString();
                         break;
                     }
             }

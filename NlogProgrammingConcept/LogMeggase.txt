@@ -18,3 +18,14 @@
 2023-07-03 16:30:20.5053 INFO 2: 30 
 2023-07-03 16:30:20.5053 INFO 3: 40 
 2023-07-03 16:30:20.5053 INFO value of index 2 is : 30 
+2023-07-03 16:36:35.1156 DEBUG Debug Successfully:....   
+2023-07-03 16:36:35.1506 INFO value of [101] is : Welcome 
+2023-07-03 16:36:35.1506 WARN Add New Value Taking New Key  
+2023-07-03 16:36:35.1800 ERROR An element with Key = "102" already exists.
+
+
+  System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at NlogProgrammingConcept.DictionaryCollection.InsertIntoDictionary() in C:\Users\Shiva027\Desktop\NewRemapSession\NlogProgrammingConcept\NlogProgrammingConcept\DictionaryCollection.cs:line 33 
